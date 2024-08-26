@@ -1,0 +1,226 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html,body{
+    height:100%;
+
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0;
+    z-index:99 ;
+    /* background-color:aliceblue; */
+}
+nav a{
+    font-size: 2vw;
+    text-decoration: none;
+}
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+background: linear-gradient(120deg,orange,rgb(190, 63, 31));
+}
+nav a,i{
+    color: linear-gradient(white);;
+}
+nav a,i:hover{
+    color: rgb(57, 156, 71);
+}
+#fanta{
+    top: 30%;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    transition: all cubic-bezier(0.19,1,0.22);
+}
+#orange1{
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    width: 15%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19,1,0.22);
+
+}
+#orange2{
+    position: absolute;
+    top: 60%;
+    width: 15%;
+    z-index: 3;
+    right: 35%;
+    transition: all cubic-bezier(0.19,1,0.22);
+
+}
+.one h1{
+    font-size: 20vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.two{
+    
+    display: flex;
+    background: #f8E7D1;
+    width: 100%;
+    height: 100vh;
+/* background: linear-gradient(120deg,orange,rgb(190, 63, 31)); */
+}
+#leaf{
+    top: 15%;
+    left: 5%;
+    transform:rotate(60deg);
+    position: absolute;
+    width: 18%;
+    transition: all cubic-bezier(0.19,1,0.22);
+}
+#leaf2{
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform:rotate(90deg);
+
+    width: 12%;
+    transition: all cubic-bezier(0.19,1,0.22);
+
+}
+#leaf3{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
+}
+.lft-two,.rght-two{
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 50%;
+    gap: 5vg;
+    height: 100%;
+    background-color: rgb(107, 59, 19);
+    flex-direction: column;
+
+}
+.lft-two svg{
+    margin-top: 45vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+.rght-two h1{
+    color: #fff;
+    font-size: 5vw;
+}
+.rght-two p{
+    color: #fff;
+    font-size: 1vw;
+    width: 80% ;
+}
+.three{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(107, 59, 19);
+}
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw ;
+    height: 70vh;
+    gap: 2vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    background: linear-gradient(white);
+}
+.card h1{
+    margin-top: 40vh;
+    font-size: 3vw;
+}
+.card button{
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    padding: 1vw 2vw;
+    background-color: orange;
+
+}
+#coc{
+    position: absolute;
+    width: 55%;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50% ,0%);
+    transition: all cubic-bezier(0.1,1,0.5 );
+
+
+    /* left: 12%; */
+}
+#pepsi{
+    position: absolute;
+    width: 85%;
+    top: -12%;
+    transition: all cubic-bezier(0.1,1,0.5 );
+
+}
+.card:nth-child(1){
+    background-color: burlywood;
+}
+.card:nth-child(2){
+    background-color: burlywood;
+}
+.card:nth-child(3){
+    background-color: burlywood;
+}
+.lemon{
+    top: -20%;
+    position: absolute;
+    width: 20vw;
+    transition: all cubic-bezier(0.1,1,);
+    left: 2vw;
+
+}
+.lemon1{
+    left: 2vw;
+    top: -20%;
+    width: 20vw;
+    transition: all cubic-bezier(0.1,1,);
+    position: absolute;
+}
+.lemon2{
+    left: 2vw;
+    top: -20%;
+    width: 20vw;
+    transition: all cubic-bezier(0.1,1,);
+    position: absolute;
+}
+.butn:hover{
+    background-color: #f0f0f0;
+    
+
+}
